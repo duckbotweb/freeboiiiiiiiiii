@@ -1,0 +1,15 @@
+body {
+    background-color: green;
+}
+
+#good {
+    font-size: 200px;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+#get {
+    font-size: 200px;
+    color:red;
+    background-color: darkred;
+}

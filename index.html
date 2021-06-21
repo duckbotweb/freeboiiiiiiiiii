@@ -12,8 +12,9 @@
     <button id="get">ROBUX BEGYŰJTÉSE</button>
     <script>
         function confirm(){
-            window.alert("Jön a robux")
-            window.location.replace('https://www.youtube.com/watch?v=dQw4w9WgXcQ')
+            if (confirm("Készen álsz a robuxra?")) {
+                window.location.replace('https://www.youtube.com/watch?v=dQw4w9WgXcQ')
+            }
         }
     </script>
 </body>

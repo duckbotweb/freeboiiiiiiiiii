@@ -9,7 +9,14 @@ body {
 }
 
 #get {
-    font-size: 200px;
-    color:red;
-    background-color: darkred;
+    font-size: 80px;
+    color: lightgreen;
+    background-color: gray;
+    border-width: 10px;
+    border-color: darkred;
+}
+
+#username {
+	font-size: 100px;
+	color: lightgreen;
 }

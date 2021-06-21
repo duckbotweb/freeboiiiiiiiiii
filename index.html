@@ -9,11 +9,13 @@
 </head>
 <body>
     <p id=good>Nagyon jó, minden háttér folyamat megvan, mostmár csak meg kell nyomnod a gombot!</p>
-    <button id="get">ROBUX BEGYŰJTÉSE</button>
+    <button onclick="doi()" id="get">ROBUX BEGYŰJTÉSE</button>
     <script>
-        function confirm(){
-            if (confirm("Készen álsz a robuxra?")) {
-                window.location.replace('https://www.youtube.com/watch?v=dQw4w9WgXcQ')
+        function doi(){
+            if (confirm("Jöhet A robux eső?")) {
+                window.location.replace('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+            }else {
+                doi()
             }
         }
     </script>
